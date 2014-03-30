@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Virtual Library-Login</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+<style>	
+h1
+{
+color:sienna;
+text-align:right;
+font-size:25pt;
+display: inline;
+font-family:"Times New Roman", Times, serif;
+margin: 60px 10px 10px 400px;
+}
+</style>
+</head>
+<body>
+	
+
+
+	<section class="loginform cf">
+
+		<form name="login" action="connectivity.php" method="post" accept-charset="utf-8">
+			<ul>
+					<h1> THE VIRTUAL LIBRARY</h1>
+				<li>
+					<label for="usermail">Email</label>
+					<input type="email" name="usermail" placeholder="yourname@email.com" required>
+				</li>
+				<li>
+					<label for="password">Password</label>
+					<input type="password" name="password" placeholder="Password" required></li>
+				<li>
+					<input type="submit" name="submit" value="SignIn">
+				</li>
+			</ul>
+		</form>
+				
+	</section>
+<div class="book" id="myimg">		
+<p><br><br>This is our virtual libraray<br>with lots of fun!! :D<br><br>Sign up now an enjoy the book you want anytime ;)</p>			
+
+					<input type="button" value="SignUp" onclick="location.href='signup.html'">					
+</div>				
+</body>
+</html>

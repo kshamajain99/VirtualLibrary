@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Bank SignUp</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class="loginform cf">
+		<form name="login" action="signupConnectivity.php" method="post" accept-charset="utf-8">
+			<ul>
+				<li>
+					<label for="rollno">Rollno</label>
+					<input type="text" name="rollno" placeholder="Roll number" required>
+				</li>
+				
+				<li>
+					<label for="name">Name</label>
+					<input type="text" name="name" placeholder="First and Last Name" required>
+				</li>
+				<li>
+					<label for="usermail">Email</label>
+					<input type="email" name="usermail" placeholder="yourname@email.com" required>
+				</li>
+				<li>
+					<label for="password">Create a Password</label>
+					<input type="password" name="password" placeholder="password" required>
+				</li>
+				<li>
+					<label for="repassword"> Confirm your Password</label>
+					<input type="password" name="repassword" placeholder=" confirm password" required>
+				</li>
+				<li>
+					<label for="contactno">Contact No.</label>
+					<input type="text" name="contactno" placeholder="Contact number">
+				</li>
+				<li>
+					<input type="submit" name="signmeup" value="Sign me up!" >
+				</li>
+			</ul>
+		</form>
+	</section>
+</body>
+</html>
