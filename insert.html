@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Insert-book</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="insert_style.css">
+</head>
+<body>
+	
+<div class="book" id="myimg">
+			<input type="button" name="dashboard" onclick="location.href='dashboard.php'" value="dashboard" alt="dashboard" id="dashboardbutton" title="Dashboard" />
+			<br><br><br><br><hr>
+	<p><kbd>insert<b>Details</b>of<b>Book</b></kbd></p>
+</div>
+	<section class="insertform cf">
+		<form method="POST" action="insert_php.php">
+		
+			<ul>
+				<br><br>
+				<li>
+					Book name<input id="name" type="text" name="name" size="40"><br>
+				</li>	
+					<li>
+					<br><br>
+					<input id="button" type="submit" name="submit" value="Insert"><br><br>
+					</li>
+			</ul>
+		</form>
+				
+	</section>
+				
+</body>
+</html>

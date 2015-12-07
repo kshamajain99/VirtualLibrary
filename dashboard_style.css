@@ -1,0 +1,317 @@
+html {
+	background: url('http://subtlepatterns.com/patterns/wood_pattern.png');
+	font-size: 10pt;
+}
+table, td, th
+{
+margin-left:160px;
+}
+th
+{
+background-color:sienna;
+color:white;
+font-size:34px;
+text-align: center;
+border-radius: 5px;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2), 
+    			inset 0px 1px 0px 0px rgba(250, 250, 250, 0.5);
+        border: 1px solid rgba(0, 0, 0, 0.3);
+}
+td{
+color: sienna;
+font-size:26px;
+text-align: center;
+padding:0 100px 0 100px;
+background-color: rgba(250,250,250,0.5);
+	border-radius: 5px;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2), 
+    			inset 0px 1px 0px 0px rgba(250, 250, 250, 0.5);
+        border: 1px solid rgba(0, 0, 0, 0.3);
+		}
+		
+#hellomsg{
+color:white;
+font-size:20px;
+}
+
+#search_section {
+	float: left;
+	margin: 10px 0 0 0;
+}
+#searchfield {
+	height: 22px;
+	width: 500px;
+	padding: 5px;
+	font-size: 12px;
+	margin-left:25px;
+	font-variant: normal;
+	line-height: normal;
+	border-radius: 3px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+	border: 1px solid #000000;	
+}
+#search {
+ 	height: 29px;
+	margin: 0;
+	padding: 4px 6px 6px 6px;
+	cursor: pointer;
+	font-size: 12px;
+	vertical-align: bottom;
+	white-space: pre;
+	color: #fff;
+	background: none; 
+	border: 1px solid #000000;
+}
+
+#logoutbutton {
+	border: 1px solid rgba(0, 0, 0, 0.3);       
+	background: #64c8ef; /* Old browsers */
+	background: -moz-linear-gradient(top,  #64c8ef 0%, #00a2e2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#64c8ef), color-stop(100%,#00a2e2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #64c8ef 0%,#00a2e2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64c8ef', endColorstr='#00a2e2',GradientType=0 ); /* IE6-9 */
+	color: #ffffff;
+	padding: 5px 15px;
+	margin-right: 10px;
+	margin-top: 20px;
+	float:right;
+	width:150px;
+	border-radius: 3px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+#searchbutton {
+	border: 1px solid rgba(0, 0, 0, 0.3);       
+	background: #64c8ef; /* Old browsers */
+	background: -moz-linear-gradient(top,  #64c8ef 0%, #00a2e2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#64c8ef), color-stop(100%,#00a2e2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #64c8ef 0%,#00a2e2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64c8ef', endColorstr='#00a2e2',GradientType=0 ); /* IE6-9 */
+	color: #ffffff;
+	padding: 5px 15px;
+	margin-right: 0;
+	margin-top: 0;
+	border-radius: 3px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.a1 input[type=submit] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	background: #64c8ef; /* Old browsers */
+	background: -moz-linear-gradient(top,  #64c8ef 0%, #00a2e2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#64c8ef), color-stop(100%,#00a2e2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #64c8ef 0%,#00a2e2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64c8ef', endColorstr='#00a2e2',GradientType=0 ); /* IE6-9 */
+	color: #ffffff;
+	padding: 5px 15px;
+	margin-left: 100px;
+	margin-top: 30px;
+	border-radius: 3px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.column_w210 {
+	height: 300px;
+	width: 800px;
+	padding: 0 20px;
+	margin: 50px 0 0 0;	
+	display: inline-block;
+	width: 150px; /* width 205 */
+
+}
+
+.a1{
+margin:0 0 0 0;
+width: 1340px;
+height: 225px;
+}
+
+#myimgs{
+	background: url('http://www.gabriellahewitt.com/wp-content/uploads/books-on-shelf-background.jpg');
+}
+
+.a1 p{
+	margin-top:0;
+	color:white;
+	font-size:50px;
+	text-indent:50px;
+}
+
+.header_01 {
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0;
+	font-size: 50px;
+	float:left;
+	color: #663300;
+	/*text-shadow: 2px 2px #787878;
+	font-weight: bold;*/
+	
+}
+
+
+.header_02 a {
+	padding: 0 0 5px 0;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+
+.header_03 {
+	padding: 0;
+	font-size: 11px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+label {
+	display: block;
+	color: #999;
+}
+.cf:before,
+.cf:after {
+    content: ""; 
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+:focus {
+	outline: 0;
+}
+.details {
+	width: 1280px;
+	height: 500px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	padding: 25px;
+	display: inline-block;
+	/*background-color: rgba(250,250,250,0.5);
+	border-radius: 5px;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2), 
+    			inset 0px 1px 0px 0px rgba(250, 250, 250, 0.5);
+        border: 1px solid rgba(0, 0, 0, 0.3);*/
+}
+.a2 {
+	width: 160px;
+	height: 300px;
+	float: right;
+	float:top;
+	margin: 10px 10px 40px 10px;
+	padding: 25px 20px 5px 25px;
+	display: inline-block;
+	align:center;
+	background-color: rgba(250,250,250,0.5);
+	border-radius: 5px;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2), 
+    			inset 0px 1px 0px 0px rgba(250, 250, 250, 0.5);
+        border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.a2 ul {
+	padding: 0;
+	margin: 0;
+}
+.a2 li {
+	display: inline;
+	float: center;
+}
+.a1 input:not([type=button]) {
+	padding: 5px;
+	margin-right: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 
+				0px 1px 0px 0px rgba(250, 250, 250, 0.5) ;
+}
+.a1 input[type=submit] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	background: #64c8ef; /* Old browsers */
+	background: -moz-linear-gradient(top,  #64c8ef 0%, #00a2e2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#64c8ef), color-stop(100%,#00a2e2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #64c8ef 0%,#00a2e2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64c8ef', endColorstr='#00a2e2',GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	padding: 5px 15px;
+	margin-right: 0;
+	margin-top: 15px;
+	border-radius: 3px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.a1 input[type=button]{
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	background: #64c8ef; /* Old browsers */
+	background: -moz-linear-gradient(top,  #64c8ef 0%, #00a2e2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#64c8ef), color-stop(100%,#00a2e2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #64c8ef 0%,#00a2e2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64c8ef', endColorstr='#00a2e2',GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	padding: 25px 150px;
+	margin-right: 100px;
+	margin-left:850px;
+	margin-top: 100px;
+	border-radius: 3px;
+	position:relative;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.a2 input:not([type=submit]) {
+	padding: 5px;
+	height:30px;
+	width:150px;
+	margin-left: 15px;
+	margin-top:10px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	position:relative;
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 
+				0px 1px 0px 0px rgba(250, 250, 250, 0.5) ;
+}
+.a2 input:not([type=button]) {
+	padding: 5px;
+	height:30px;
+	width:150px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	position:relative;
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 
+				0px 1px 0px 0px rgba(250, 250, 250, 0.5) ;
+}
+.a2 input[type=submit] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	background: #64c8ef; /* Old browsers */
+	background: -moz-linear-gradient(top,  #64c8ef 0%, #00a2e2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#64c8ef), color-stop(100%,#00a2e2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #64c8ef 0%,#00a2e2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64c8ef', endColorstr='#00a2e2',GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	height:30px;
+	width:150px;
+	padding: 5px 15px;
+	margin-right: 0;
+	margin-top: 15px;
+	border-radius: 3px;
+	position:relative;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}

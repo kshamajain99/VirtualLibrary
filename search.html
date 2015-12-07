@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Search</title>
+<meta name="keywords" content="My profile page of virtual library" />
+<meta name="description" content="Insert,Update,Delete books from my account of virtual library." />
+
+<link href="search_css.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+
+function clearText(field){
+
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+
+}
+</script>
+</head>
+<body>
+<div class="a1 cf" id="myimgs">
+<form action="#" method="get">
+<div class="b">
+<ul>
+<li>
+<input type="button" name="dashboard" onclick="location.href='dashboard.php'" value="dashboard" alt="dashboard" id="logoutbutton" title="Back to Dashboard" />
+</li>
+<li>
+<input type="button" name="LOGOUT" onclick="location.href='logout.php'" value="logout" alt="logout" id="logoutbutton" title="Logout" />
+</li>
+</ul>
+</div>
+<p>search<b>Results</b>....</p>
+ </form>
+<hr>
+<div id="search_section">
+<form action="search_php.php" method="post">
+	
+   <input type="text" value="Enter name of the book.." name="q" size="10" id="searchfield" title="searchfield" onfocus="clearText(this)" onblur="clearText(this)" />
+              <input type="submit" name="Search" value="Search" alt="Search" id="searchbutton" title="Search" />
+ </form>
+</div> 
+</div>
+
+
+
+<section class="details">
+<div class="column_w210">
+        
+			        
+<?php
+session_start();
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'dbms');
+define('DB_USER','root');
+define('DB_PASSWORD','');
+
+$con=mysql_connect(DB_HOST,DB_USER,DB_PASSWORD) or die("Failed to connect to MySQL: " . mysql_error());
+$db=mysql_select_db(DB_NAME,$con) or die("Failed to connect to MySQL: " . mysql_error());
+echo 'Connected';
+$id = $_SESSION['uid'];
+$squery=$_POST['q'];
+$query = "SELECT * FROM books where bname = '$squery'";  //You don't need a ; like you do in SQL
+$result = mysql_query($query);
+
+echo "<table>"; // start a table tag in the HTML
+
+while($row = mysql_fetch_array($result)){   //Creates a loop to loop through results
+echo "<tr><td>" . $row['bid'] . "</td><td>" . $row['bname'] . "</td></tr>";  //$row['index'] the index here is a field name
+}
+
+echo "</table>"; //Close the table in HTML
+
+?>      
+	</div>
+
+</section>
+</html>
